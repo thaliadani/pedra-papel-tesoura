@@ -1,7 +1,7 @@
 function jogar() {
-    idade = prompt("Qual a sua idade?");
-    escolhaJogador = prompt("Escolha: 1- pedra, 2- papel ou 3- tesoura?");
-    escolhaComputador = Math.floor(Math.random() * 3) + 1;
+    let idade = prompt("Qual a sua idade?");
+    let escolhaJogador = prompt("Escolha: 1- pedra, 2- papel ou 3- tesoura?");
+    let escolhaComputador = Math.floor(Math.random() * 3) + 1;
     
     if(idade >= 18) {
         escolhaJogador
